@@ -68,27 +68,32 @@ nav a {
 .hero {
     text-align: center;
     padding: 2em 0;
+    background-image: url('images/Donation.jpg'); /* Background image for hero section */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top center;
+    color: #fff; /* Adjust text color for better contrast */
 }
 
 .hero h2 {
-    color: #FFD700; 
+    color: #FFD700;
 }
 
 .hero a.button {
     display: inline-block;
-    background-color: #FFD700; 
-    color: #000; 
+    background-color: #FFD700;
+    color: #000;
     padding: 0.75em 1.5em;
     text-decoration: none;
     border-radius: 5px;
     margin: 0.5em;
-    border: 2px solid #000; 
+    border: 2px solid #000;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .hero a.button:hover {
-    background-color: #000; 
-    color: #fff; 
+    background-color: #000;
+    color: #fff;
 }
 
 .section-title {
